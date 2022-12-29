@@ -17,6 +17,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".ViewPengajuanKP"
+            android:exported="false" />
+        <activity
             android:name=".DonePengajuanKP"
             android:exported="false" />
         <activity
