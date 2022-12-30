@@ -18,7 +18,13 @@
         tools:targetApi="31">
         <activity
             android:name=".ViewPengajuanKP"
-            android:exported="false" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".DonePengajuanKP"
             android:exported="false" />
@@ -27,7 +33,7 @@
             android:exported="false" />
         <activity
             android:name=".PengajuanKP"
-            android:exported="false" />
+            android:exported="false"></activity>
         <activity
             android:name=".HomeActivity"
             android:exported="false"
@@ -38,14 +44,8 @@
             android:theme="@style/Theme.LunchNoActionBar" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.Lunch">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false"
+            android:theme="@style/Theme.Lunch"></activity>
 
         <meta-data
             android:name="preloaded_fonts"
