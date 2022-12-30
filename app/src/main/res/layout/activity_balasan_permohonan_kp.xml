@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#049C4C"
+    tools:context=".BalasanPermohonanKP">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="276dp"
+        android:layout_height="492dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/kotak"
+        android:backgroundTint="#FFFFFF"
+        android:foregroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UtamaBalasanKP">
+
+        <TextView
+            android:id="@+id/JudulBalasanKP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Balasan Permohonan KP"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="104dp"
+            android:backgroundTint="#049C4C"
+            android:text="@string/submit"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText4"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/OtherBalasanKP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="@string/lengkapi_formulir_berikut"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.246"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/JudulBalasanKP" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditText2"
+            android:layout_width="181dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="16dp"
+            android:hint="Nama Ketua"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/OtherBalasanKP" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText3"
+            android:layout_width="181dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="8dp"
+            android:hint="NIM"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputEditText2" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText4"
+            android:layout_width="181dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="8dp"
+            android:hint="Instansi yang diajukan"
+            android:textColorHint="#757575"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="70dp"
+            android:text="Pilih File"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/editText4" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="70dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="60dp"
+            android:backgroundTint="#8E8E8E"
+            android:text="upload"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toTopOf="@+id/editText4"
+            app:strokeColor="#595151" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/Back3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/UtamaBalasanKP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Balasan Permohonan KP"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

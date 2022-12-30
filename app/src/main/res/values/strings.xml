@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">Lunch</string>
     <string name="logo">logo</string>
+    <string name="sks_yang_diambil">SKS yang diambil</string>
+    <string name="lengkapi_formulir_berikut">Lengkapi formulir berikut:</string>
+    <string name="nim">NIM</string>
+    <string name="nama">Nama</string>
+    <string name="pengajuan_kerja_praktek">Pengajuan Kerja Praktek</string>
+    <string name="submit">submit</string>
+    <string name="instansi_kerja_praktek">Instansi Kerja Praktek</string>
+    <string name="bidang_kerja_praktek">Bidang Kerja Praktek</string>
+    <string name="rencana_pelaksanaan_kp">Rencana Pelaksanaan KP</string>
+    <string name="rumusan_masalah_kp">Rumusan Masalah KP</string>
+    <string name="pengajuan_kp">PENGAJUAN KP</string>
+    <string name="todo">TODO</string>
+    <string name="nama_ketua">Nama Ketua</string>
+    <string name="nama_anggota">Nama Anggota</string>
 </resources>
