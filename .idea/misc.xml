@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/PTB/PTB4GUYS/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.134" />
+        <entry key="..\:/PTB/PTB4GUYS/app/src/main/res/drawable/custom_button.xml" value="0.134" />
+        <entry key="..\:/PTB/PTB4GUYS/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.134" />
+        <entry key="..\:/PTB/PTB4GUYS/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.134" />
+        <entry key="..\:/PTB/PTB4GUYS/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.134" />
+        <entry key="..\:/PTB/PTB4GUYS/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml" value="0.134" />
+        <entry key="..\:/PTB/PTB4GUYS/app/src/main/res/drawable/ic_group.xml" value="0.134" />
+        <entry key="..\:/PTB/PTB4GUYS/app/src/main/res/drawable/ic_group__1_.xml" value="0.134" />
+        <entry key="..\:/PTB/PTB4GUYS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.134" />
+        <entry key="..\:/PTB/PTB4GUYS/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/PTB/PTB4GUYS/app/src/main/res/layout/activity_informasi_seminar_kp.xml" value="0.25" />
+        <entry key="..\:/PTB/PTB4GUYS/app/src/main/res/layout/activity_input_data_seminar1.xml" value="0.2" />
+        <entry key="..\:/PTB/PTB4GUYS/app/src/main/res/layout/activity_input_data_seminar2.xml" value="0.25" />
+        <entry key="..\:/PTB/PTB4GUYS/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/PTB/PTB4GUYS/app/src/main/res/layout/list_kp.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/hanif/AndroidStudioProjects/Lunch/app/src/main/res/drawable/custom_button.xml" value="0.2645" />
         <entry key="..\:/Users/hanif/AndroidStudioProjects/Lunch/app/src/main/res/drawable/ic_launcher_image.xml" value="0.2645" />
         <entry key="..\:/Users/hanif/AndroidStudioProjects/Lunch/app/src/main/res/drawable/ic_unand_logo.xml" value="0.2645" />
